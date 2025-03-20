@@ -91,6 +91,7 @@ public class CourseDaoImpl implements CourseDao {
 
         final String DELETE_COURSE = "DELETE FROM course WHERE cid = ?";
         jdbcTemplate.update(DELETE_COURSE, id);
+        
 
         //YOUR CODE ENDS HERE
     }
